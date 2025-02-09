@@ -67,7 +67,7 @@ const Home = () => {
                 <TabItem
                   key={tab.tabId}
                   tabDetails={tab}
-                  onClickTabItem={setActiveTabId}
+                  onClickTabItem={onClickTabItem}
                   isActive={activeTabId === tab.tabId}
                 />
               ))}
